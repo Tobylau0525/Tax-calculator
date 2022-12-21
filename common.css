@@ -1,0 +1,38 @@
+*{
+	font-family: verdana;
+}
+
+h1 {
+	color: black;
+}
+
+div.numbers, div.small-numbers {	
+	display: inline-block;
+	padding-top: .15in;
+	width: .65in;
+	height: .35in;
+	background-color: white;
+	border: solid 1px black;
+	text-align: center;
+	margin: 1px 1px 0 0;
+	
+}
+
+div.small-numbers {
+	padding-top: .075in;
+	width: .35in;
+	height: .23in;
+	font-size: 70%;
+}
+
+div.isOdd, div.isEven {
+	background-color: pink;
+	
+}
+
+
+#divBody {
+	width: 5.15in;
+	-border: dashed 1px red;
+	text-align: left;
+}
